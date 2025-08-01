@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner img{
+    width: 70vw;
+    height: 70vh; 
+    object-fit: fill;
+}
+
+/* body section  */
+
+.contaier-TopAnimeInfo{
+  margin-top: 8px;
+  border: 2px solid black;
+}
+
+.AnimeInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18vh;
+  background-image: url("image/topanimeBG1.jpg");
+  background-size: cover;
+  color: yellow;
+}
+
+/* 1st anime content */
+
+.onepiece{
+  color: white;
+  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-image: url("image/opBG.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .onepiece {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; 
+  }
+
+  .onepiece .text p {
+    font-size: 14px;      
+    line-height: 1.4;     
+    margin: 10px 0;
+  }
+
+  .onepiece .text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .onepiece .image img {
+    max-width: 200px; 
+    height: auto;
+  }
+}
+
+/* 2nd anime content */
+
+.naruto{
+  color: white;
+  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-image: url("image/narutoBG.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .naruto {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; 
+  }
+
+  .naruto .text p {
+    font-size: 14px;      
+    line-height: 1.4;     
+    margin: 10px 0;
+  }
+
+  .naruto .text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .naruto .image img {
+    max-width: 200px; 
+    height: auto;
+  }
+}
+
+/* 3rd anime content */
+
+.sololeveling{
+  color: white;
+  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-image: url("image/soloBG.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .sololeveling {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; 
+  }
+
+  .sololeveling .text p {
+    font-size: 14px;      
+    line-height: 1.4;     
+    margin: 10px 0;
+  }
+
+  .sololeveling .text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sololeveling .image img {
+    max-width: 200px; 
+    height: auto;
+  }
+}
+
+/* 4th anime content */
+
+.bleach{
+  color: white;
+  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-image: url("image/bleachBG.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .bleach {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; 
+  }
+
+  .bleach .text p {
+    font-size: 14px;      
+    line-height: 1.4;     
+    margin: 10px 0;
+  }
+
+  .bleach .text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bleach .image img {
+    max-width: 200px; 
+    height: auto;
+  }
+}
+
+/* 5th anime content */
+
+.dragonballz{
+  color: white;
+  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-image: url("image/dbzBG.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .dragonballz {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; 
+  }
+
+  .dragonballz .text p {
+    font-size: 14px;      
+    line-height: 1.4;     
+    margin: 10px 0;
+  }
+
+  .dragonballz .text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .dragonballz .image img {
+    max-width: 200px; 
+    height: auto;
+  }
+}
