@@ -1,7 +1,32 @@
 .greyBG{
-    background-color: rgba(54, 53, 53, 0.6);
+    background-color: rgba(65, 62, 62, 0.6);
 }
 
 .underline{
    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.hoverUL:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.iblue i {
+    color: #0A66C2;
+}
+
+.ipink i {
+    color: rgb(251, 95, 228);
+}
+
+.igrey i {
+    color: rgba(189, 184, 184, 0.992);
+}
+
+.yellow{
+    color: rgb(234, 210, 54);
 }
