@@ -89,7 +89,7 @@
 
 @media (max-width: 768px) {
   .onepiece{
-    background-image: url("../image/opmobileBG.jpg");
+    background-image:url("image/opBG1.jpg")
   }
   .onepiece {
     flex-direction: column;
@@ -177,7 +177,7 @@
 
 @media (max-width: 768px) {
   .sololeveling{
-    background-image: url("../image/solomobileBG.jpg");
+    background-image: url("image/soloBG1.jpg");
   }
   .sololeveling {
     flex-direction: column;
