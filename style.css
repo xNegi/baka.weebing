@@ -444,9 +444,11 @@
 
 }
 
-.UCanimeIMG img {
+@media (min-width:768px) {
+  .UCanimeIMG img {
   height: 250px;
   width: auto;
+}
 }
 
 .UCanime{
@@ -478,6 +480,39 @@
   font-weight: bold;
   color: gray;
   padding-bottom: 20px;
+}
+
+@media (max-width:768px) {
+
+  .uc-animecontent {
+    flex-direction: column;
+    text-align: center;
+    background-color: gold;
+  }
+  .UCanime {
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 1rem;
+  } 
+
+  .UCanimeIMG img {
+    max-width: 100px; 
+    height: auto;
+  }
+
+  .UCanime .text h4 {
+    font-size: 20px;
+  }
+
+  .UCanime .text #info{
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 11px;
+  }
+
+  .UCanime .text p{
+    font-size: 12px;
+  }
 }
 
 .smBtn {
