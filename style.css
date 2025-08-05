@@ -8,6 +8,15 @@
     font-family: "Playfair Display", serif; 
 }
 
+.navbar a:hover {
+  color: gold;
+}
+
+.navbar {
+  color: white;
+  background-color: black;
+}
+
 .carousel-inner img{
     width: 70vw;
     height: 70vh; 
@@ -76,7 +85,7 @@
 
 .onepiece{
   color: white;
-  margin-top: 8px;
+  margin-top: 6px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,7 +129,7 @@
 
 .naruto{
   color: white;
-  margin-top: 8px;
+  margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,7 +173,7 @@
 
 .sololeveling{
   color: white;
-  margin-top: 8px;
+  margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -208,7 +217,7 @@
 
 .bleach{
   color: white;
-  margin-top: 8px;
+  margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -252,7 +261,7 @@
 
 .dragonballz{
   color: white;
-  margin-top: 8px;
+  margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -293,14 +302,13 @@
 }
 
 .footer {
-  margin-top:10px;
+  margin-top:6px;
   padding: 8px;
   border:1px solid black;
   height: 32vh;
   margin-bottom: 2px;
   background-color: black;
   color: rgb(248, 245, 245);
-  /* background-image: url("https://i.pinimg.com/1200x/43/f9/21/43f921fff911cfa8aa64c636931e3880.jpg"); */
   background-repeat: no-repeat;        
   background-size: cover;               
   background-position: center
@@ -408,3 +416,82 @@
   text-decoration: none;
 }
 
+
+/* upcoming style  */
+
+.upcoming-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: auto;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  padding: 0px 12px;
+  color:white;
+  background-image: url("https://i.pinimg.com/1200x/f7/c5/92/f7c5921b29817771ea43781c1da9c45c.jpg");
+  background-size: fill;
+  background-repeat:repeat-x;
+
+}
+
+.upcoming-header h2{
+  font-family: cursive;
+  font-weight: bold;
+  padding: 4px 8px 4px 8px;
+  color: gold;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.UCanimeIMG img {
+  height: 250px;
+  width: auto;
+}
+
+.UCanime{
+  margin-top: 1px;
+  height: 275px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.UCanime .text {
+  flex-wrap: wrap;
+  margin-left: 12px;
+  border: 2px solid gray;
+  border-radius: 2rem;
+  padding: 20px;
+  color: white;
+}
+
+.UCanime .text h4 {
+  color: gold;
+}
+
+.UCanime #info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.smBtn {
+  padding: 12px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smBtn button {
+  width: 100px;
+  color: gold;
+  border: 1px solid gold;
+  border-radius: 2rem;
+  background-color: black;
+}
