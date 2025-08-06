@@ -34,3 +34,7 @@
 .yellow{
     color: rgb(234, 210, 54);
 }
+
+#mb{
+    margin-bottom: 20px;
+}

@@ -530,3 +530,26 @@
   border-radius: 2rem;
   background-color: black;
 }
+
+
+/* recommended page styling */
+
+.UCanime #info1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+
+.UCanime #genre{
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 20px ;
+  color: grey;
+}
